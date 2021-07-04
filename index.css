@@ -127,6 +127,12 @@ body{
     text-decoration: underline;
     margin-top: 44px;
     margin-bottom: 99px;
+    transition-duration: 2s;
+}
+.store-img p:hover{
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: 2s;
 }
 input{
     background: black;
@@ -145,6 +151,27 @@ input:active{
 .contacts h1{
     font-size: 34px;
     margin-bottom: 20px;
-}# My-project
-# About-DENIS-NOVIK-project
-# Nightingale-company-job-Denis-Novikik
+}
+.last-text{
+    font-size: 14px;
+    color: #828282;
+    height: 34px;
+    width: 243px;
+    margin-bottom: 0;
+}
+.images{
+    width: 350px;
+    margin-left: 575px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:767px) {
+    .header{
+        display: none;
+    }
+    .img-denis{
+        height: 478px;
+        width: 316px;
+    }
+}
