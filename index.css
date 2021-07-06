@@ -6,7 +6,7 @@ body{
     color: #828282;
     font-size: 18px;
 }
-#link{
+.Home{
     color: black;
 }
 .header{
@@ -49,13 +49,13 @@ body{
     margin-left: 251px;
     padding-right: 0;
 }
-.img{
+.img-denis{
     margin-left: 250px;
 }
-.body2 h1{
+.main-container-2 h1{
     font-size: 34px;
 }
-.body2{
+.main-container-2{
     background: #F6F6F6;
     margin-top: 104px;
     height: 506px;
@@ -109,12 +109,12 @@ body{
     margin-bottom: 69px;
     margin-top: 91px;
 }
-.body4{
+.main-container-4{
     background: #F6F6F6;
     padding-top: 112px;
     padding-bottom: 96px;
 }
-.body4 h1{
+.main-container-4 h1{
     font-size: 34px;
     margin-bottom: 41px;
 }
