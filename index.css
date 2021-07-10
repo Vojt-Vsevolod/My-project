@@ -33,6 +33,7 @@ body{
     margin-bottom: 49px;
     margin-left: 297px;
     margin-right: 470px;
+    text-align: center;
 
 
 }
@@ -51,6 +52,12 @@ body{
 }
 .img-denis{
     margin-left: 250px;
+}
+.mobile-denis{
+    display: none;
+}
+.lines{
+    display: none;
 }
 .main-container-2 h1{
     font-size: 34px;
@@ -171,7 +178,47 @@ input:active{
         display: none;
     }
     .img-denis{
-        height: 550px;
-        width: 317px;
+        display: none;
+    }
+    .lines{
+        display: none;
+    }
+    .mobile-denis{
+        display: inline;
+        margin-left: 29px;
+       
+    }
+    .languge{
+        display: none;
+    }
+    .name{
+        font-size: 47px;
+        margin-left: 26px;
+        display: block;
+    }
+    .main-text{
+        display: block;
+        margin-left: 26px;
+        order: 1;
+    }
+    .information{
+        margin-left: 28px;
+        margin-top: 23px;
+    }
+    .lines{
+        display: inline;
+        margin-top: 68px;
+        margin-left: 162px;
+        height: 19px;
+    }
+    .main-text-container{
+        display: inline;
+    }
+    .main-container{
+        display: flex;
+    }
+    .name-container{
+        display: flex;
+        margin-bottom: 23px;
     }
 }
