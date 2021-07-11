@@ -26,15 +26,10 @@ body{
     margin-top: 39px;
 }
 .information{
-    font-size: 18px;
-    height: 44px;
-    width: 200px;
-    margin-top: 94.77px;
-    margin-bottom: 49px;
-    margin-left: 50px;
-    margin-right: 470px;
-    text-align: center; 
-    line-height: 50px;
+    font-size: 18px;    
+    width: 145px;
+    margin-top: 10%;
+    
 }
 .information p{
     margin-top: 0;
@@ -42,10 +37,14 @@ body{
 }
 .languge{
     color: black;
-    margin-top: 69px;
+    margin-top: 5px;
     transform: rotate(-90deg);
-    margin-right: 0;
+    
 }
+.text-grey{
+    color: grey;
+}
+
 .main-text{
     display: flex;
     justify-content: space-between;
