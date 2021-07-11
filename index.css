@@ -31,9 +31,14 @@ body{
     width: 200px;
     margin-top: 94.77px;
     margin-bottom: 49px;
-    margin-left: 297px;
+    margin-left: 50px;
     margin-right: 470px;
     text-align: center; 
+    line-height: 50px;
+}
+.information p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .languge{
     color: black;
@@ -80,6 +85,7 @@ body{
 }
 #text3{
     margin-left: 570px;
+    height: 20px;
 
 }
 #text4{
@@ -90,15 +96,19 @@ body{
 }
 #text6{
     margin-left: 670px;
+
 }
+
 .about-me1{
     margin-bottom: 50px;
-}
+}ss
 .about-me2{
     margin-bottom: 50px;
 }
 .about-me3{
     margin-bottom: 50px;
+    margin-top: 50px;
+    width: auto;
 }
 
 .about-me-main{
@@ -153,7 +163,7 @@ input{
     height: 38px;
     width: 116px;
     text-align: center;
-    margin-left: 520px;
+    margin-left: 0.1px;
     margin-top: 39px;
 
 }
@@ -179,12 +189,12 @@ input:active{
     
 }
 .last-text-container{
-    margin-left: 29px;
+    margin-left: 640px;
 }
 
 .images{
     width: 320px;
-    margin-left: 400px;
+    margin-left: 600px;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -242,23 +252,38 @@ input:active{
     }
 
     #text2{
-        margin-left: 29px;
+        margin-left: 35px;
     }
 
     #text3{
-        margin-left: 29px;
+        margin-left: 60px;
+        height: auto;
+        width: auto;
     }
 
     #text4{
-        margin-left: 29px;
+        margin-left: 75px;
     }
 
     #text5{
-        margin-left: 29px;
+        margin-left: 30px;
+        width: auto;
+        height: auto;
     }
 
     #text6{
-        margin-left: 29px;
+        margin-left: 105px;
+    }
+    #text7{
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+
+    }
+    #text8{
+        width: auto;
+        height: auto;
+        margin-left: 45px;
     }
     .about-me1{
         width: 100%;
@@ -297,6 +322,9 @@ input:active{
     }
 body{
     width: 375px;
+}
+.last-text-container{
+    margin-left: 50px;
 }
 
 }
