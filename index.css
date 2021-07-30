@@ -72,7 +72,6 @@ body{
 }
 .about-me p{
     font-size: 18px;
-    margin-left: 480px;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -100,7 +99,7 @@ body{
 
 .about-me1{
     margin-bottom: 50px;
-}ss
+}
 .about-me2{
     margin-bottom: 50px;
 }
@@ -120,12 +119,17 @@ body{
 .skills p{
     font-size: 18px;
     margin-bottom: 83px;
+    margin-left: 650px;
 
 }
 .skills h1{
     font-size: 34px;
     margin-bottom: 69px;
     margin-top: 91px;
+    margin-left: 700px;
+}
+.for-store{
+    margin-left: 650px;
 }
 .main-container-4{
     background: #F6F6F6;
@@ -137,7 +141,7 @@ body{
     margin-bottom: 41px;
 }
 .store-img img{
-    margin-left: 1px;
+    margin-left: 260px;
 
 }
 .store-img p{
@@ -152,8 +156,17 @@ body{
     text-decoration: none;
     transition-duration: 2s;
 }
+.Portfolio{
+    margin-left: 700px;
+}
 .store-img{
     margin-left: 1px;
+}
+.chat{
+    margin-left: 650px;
+}
+.welcome{
+    margin-left: 700px;
 }
 input{
     background: black;
@@ -162,9 +175,15 @@ input{
     height: 38px;
     width: 116px;
     text-align: center;
-    margin-left: 0.1px;
+    margin-left: 700px;
     margin-top: 39px;
 
+}
+.Like{
+    margin-left: 90px;
+}
+.Like2{
+    margin-left: 700;
 }
 input:active{
     border: 4px solid grey;
@@ -172,6 +191,7 @@ input:active{
 .contacts h1{
     font-size: 34px;
     margin-bottom: 20px;
+    margin-left: 690px;
     
 }
 .contacts p{
@@ -197,6 +217,9 @@ input:active{
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
+}
+.h1-about-me{
+    margin-left: 670px;
 }
 @media (max-width:767px) {
     .header{
@@ -246,40 +269,48 @@ input:active{
         display: flex;
         margin-bottom: 23px;
     }
-    #text{
-        margin-left: 29px;
+    .h1-about-me{
+        margin-left: 109px;
+    }
+    .text{
+        margin-left: 0;
+        width: 100vw;
+        height: 50px;
+        text-align: center;
+        padding: 0;
+        display: flex;
     }
 
-    #text2{
+    .text2{
         margin-left: 35px;
     }
 
-    #text3{
+    .text3{
         margin-left: 60px;
         height: auto;
         width: auto;
     }
 
-    #text4{
+    .text4{
         margin-left: 75px;
     }
 
-    #text5{
+    .text5{
         margin-left: 30px;
         width: auto;
         height: auto;
     }
 
-    #text6{
+    .text6{
         margin-left: 105px;
     }
-    #text7{
+    .text7{
         width: auto;
         height: auto;
         margin-left: 50px;
 
     }
-    #text8{
+    .text8{
         width: auto;
         height: auto;
         margin-left: 45px;
@@ -296,11 +327,21 @@ input:active{
     .about-me{
         height: 261px;
     }
+    .skills h1{
+        margin-left: 143px;
+    }
+    .skills p{
+        margin-left: 74px;
+    }
+
     .image{
         display: flex;
         flex-wrap: wrap;
         width: 166px;
         margin-left: 104px;
+    }
+    .Portfolio{
+        margin-left: 121px;
     }
     .store-img img{
         width: 286px;
@@ -311,9 +352,18 @@ input:active{
     .store-img{
         padding-right: 30px;
     }
+    .store-img p{
+        margin-left: 49px;
+    }
     .images{
         margin-left: 29px;
     }
+    .contacts h1{
+        margin-left: 115px;
+    }
+    /* .contacts p{
+        margin-left: 50px;
+    } */
     input{
         margin-left: 35px;
         height: 42px;
@@ -323,6 +373,12 @@ body{
     width: 375px;
 }
 .last-text-container{
+    margin-left: 50px;
+}
+.welcome{
+    margin-left: 80px;
+}
+.chat{
     margin-left: 50px;
 }
 
