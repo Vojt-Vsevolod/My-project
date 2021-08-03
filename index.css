@@ -8,6 +8,17 @@ body{
 }
 .Home{
     color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#carouselExampleControls{
+    width: 943px;
+    height: 387px;
+    margin-left: 250px;
+    
+}
+.container{
+    display: none;
 }
 .header{
     width: 60%;
@@ -173,7 +184,7 @@ input{
     color: white;
     border-radius: 20px;
     height: 38px;
-    width: 116px;
+    width: 150px;
     text-align: center;
     margin-left: 700px;
     margin-top: 39px;
@@ -225,6 +236,50 @@ input:active{
     .header{
         display: none;
     }
+    .links-mobile-version a{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .container{
+        display: block;
+    }
+    .navs-link{
+        border: none;
+        background: none;
+        display: block;
+    }
+    .container-a-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    #carouselExampleControls{
+        display: none;
+    }
+    .a-about{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .a-skills{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .a-portfolio{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .a-contacts{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .links-mobile-version{
+        display: flex;
+        flex-direction: column;
+    }
     .img-denis{
         display: none;
     }
@@ -256,7 +311,7 @@ input:active{
     .lines{
         display: inline;
         margin-top: 68px;
-        margin-left: 162px;
+        margin-left: 0;
         height: 19px;
     }
     .main-text-container{

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Project</title>
 </head>
@@ -21,7 +22,29 @@
                         Denis
                         Novik
                     </p>
-                    <img src="img/3-lines.svg" alt="" class="lines">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="navs-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><img src="img/3-lines.svg" alt="" class="lines"></button>
+                        </li>
+                      </ul>
+                </div>
+                <div class="row">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" class="links-mobile-version">
+                            <div class="container-a-mobile">
+                            <a href="" class="Home">Home</a><a href="" class="a-about">About me</a><a href="" class="a-skills">Skills</a><a href="" class="a-portfolio">Portfolio</a><a href="" class="a-contacts">Contacts</a></div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+
+
+
+
+                    
                 </div>
                 <p class="information">
                     UX | UI designer
@@ -31,7 +54,33 @@
                     <span class="text-grey">RU</span><span>| ENG</span>
                 </p>
             </div>
-            <img src="img/denis.jpg" alt="" class="img-denis">
+            <div id="carouselExampleControls" class="carousel slide" class="carousel-slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/denis.jpg" class="d-block w-100" alt="..." class="img-denis">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (2).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (3).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (4).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (5).jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
             <img src="img/mobile-denis.jpg" alt="" class="mobile-denis">
 
         </div>
@@ -148,5 +197,6 @@
                 
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
