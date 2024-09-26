@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Project</title>
 </head>
@@ -11,28 +12,84 @@
     <header class="header">
         <a href="" class="Home">Home</a><a href="">About me</a><a href="">Skills</a><a href="">Portfolio</a><a href="">Contacts</a>
     </header>
+    
     <section class="main-container">
-        <div>
+        
+        <div class="main-text-container">
             <div class="main-text">
-                <p class="name">
-                    Denis
-                    Novik
-                </p>
+                <div class="name-container">
+                    <p class="name">
+                        Denis
+                        Novik
+                    </p>
+            <div class="container">
+                <div class="row">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="navs-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><img src="img/3-lines.svg" alt="" class="lines"></button>
+                        </li>
+                      </ul>
+                </div>
+                <div class="row">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" class="links-mobile-version">
+                            <div class="container-a-mobile">
+                            <a href="" class="Home">Home</a><a href="" class="a-about">About me</a><a href="" class="a-skills">Skills</a><a href="" class="a-portfolio">Portfolio</a><a href="" class="a-contacts">Contacts</a></div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+
+
+
+
+                    
+                </div>
                 <p class="information">
                     UX | UI designer
-                    24 years old, Minsk
+                    24 years old, Minsk                
                 </p>
                 <p class="languge">
-                    RU | ENG
+                    <span class="text-grey">RU</span><span>| ENG</span>
                 </p>
             </div>
-            <img src="img/Denis.jpg" alt="" class="img-denis">
+            <div id="carouselExampleControls" class="carousel slide" class="carousel-slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/denis.jpg" class="d-block w-100" alt="..." class="img-denis">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (2).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (3).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (4).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Friend-Denis (5).jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+            <img src="img/mobile-denis.jpg" alt="" class="mobile-denis">
+
         </div>
+        
     </section>
     <section class="main-container-2">
-        <h1 align="center" >About me</h1>
+        <h1 class="h1-about-me">About me</h1>
         <div class="about-me">
-            <div class="about-me1">
+            <div class="about-me1 desk">
                 <p id="text">
                     Hi, I'm Denis – UX/UI designer from Minsk. 
                 </p>
@@ -40,7 +97,7 @@
                     I'm interested in design and everything connected with it.
                 </p>
             </div>
-            <div class="about-me2">
+            <div class="about-me2 desk">
                 <p id="text3"> 
                     I'm studying at courses "Web and mobile design 
                 </p>
@@ -48,7 +105,7 @@
                     interfaces" in IT-Academy.
                 </p>
             </div>
-            <div class="about-me3">
+            <div class="about-me3 desk">
                 <p id="text5">                    
                     Ready to implement excellent projects
                 </p>
@@ -56,12 +113,44 @@
                     with wonderful people.
                 </p>
             </div>
+            <div class="about-me-main">
+                <div class="about-me1">
+                    <p class="text">
+                        Hi, I'm Denis – UX/UI designer from  
+                    </p>
+                    <p class="text2">  
+                        Minsk. I'm interested in design and
+                    </p>
+                    <p class="text3">
+                         everything connected with it.
+                    </p>
+                </div>
+                <div class="about-me2">
+                    <p class="text4"> 
+                        I'm studying at courses 
+                    </p>
+                    <p class="text5">
+                        "Web and mobile design interfaces"
+                    </p>
+                    <p class="text6">
+                         in IT-Academy.
+                    </p>
+                </div>
+                <div class="about-me3">
+                    <p class="text7">                    
+                        Ready to implement excellent 
+                    </p>
+                    <p class="text8">
+                        projects with wonderful people.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="main-container-3">
         <div class="skills">
-            <h1 align="center">Skills</h1>
-            <p align="center">I work in such programs as</p>
+            <h1>Skills</h1>
+            <p>I work in such programs as</p>
         </div>
         <div class="image">
             <img src="img/ps.svg" alt="">
@@ -72,22 +161,22 @@
     </section>
     <section class="main-container-4">
         <div>
-            <h1 align="center">Portfolio</h1>
+            <h1 class="Portfolio">Portfolio</h1>
             <div class="store-img">
                 <img src="img/first.jpg" alt="">
-                <p align="center">Online fashion store - Homepage</p>
+                <p class="for-store">Online fashion store - Homepage</p>
                 <img src="img/second.jpg" alt="">
-                <p align="center">Reebok Store - Concept</p>
+                <p class="for-store">Reebok Store - Concept</p>
                 <img src="img/third.jpg" alt="">
-                <p align="center">Braun Landing Page - Concept</p>
+                <p class="for-store">Braun Landing Page - Concept</p>
             </div>
         </div>
     </section>
     <section class="main-container-5">
         <div class="contacts">
-            <h1 align="center">Contacts</h1>
-            <p align="center">Want to know more or just chat? 
-                You are welcome!</p>
+            <h1>Contacts</h1>
+            <p class="chat">Want to know more or just chat? </p>
+            <p class="welcome">You are welcome!</p>
                 <input type="button" value="Send message">
         </div>
         <div>
@@ -97,14 +186,17 @@
                 <a href="links/subscribe (3).html"><img src="img/behance.svg" alt=""></a>
                 <a href="links/subcribe (4).html"><img src="img/planet.svg" alt=""></a>
             </div>
-            <p class="last-text">
-                Like me on
-            </p>
-            <p class="last-text"> 
-                LinkedIn, Instagram, Behance, Dribble\
-            </p>
+            <div class="last-text-container">
+                <p class="last-text Like">
+                    Like me on
+                </p>
+                <p class="last-text Like2"> 
+                    LinkedIn, Instagram, Behance, Dribble\
+                </p>
+            </div>
                 
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

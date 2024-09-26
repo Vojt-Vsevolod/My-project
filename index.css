@@ -8,6 +8,17 @@ body{
 }
 .Home{
     color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#carouselExampleControls{
+    width: 943px;
+    height: 387px;
+    margin-left: 250px;
+    
+}
+.container{
+    display: none;
 }
 .header{
     width: 60%;
@@ -26,22 +37,25 @@ body{
     margin-top: 39px;
 }
 .information{
-    font-size: 18px;
-    height: 44px;
-    width: 200px;
-    margin-top: 94.77px;
-    margin-bottom: 49px;
-    margin-left: 297px;
-    margin-right: 470px;
-
-
+    font-size: 18px;    
+    width: 145px;
+    margin-top: 10%;
+    
+}
+.information p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .languge{
     color: black;
-    margin-top: 69px;
+    margin-top: 5px;
     transform: rotate(-90deg);
-    margin-right: 0;
+    
 }
+.text-grey{
+    color: grey;
+}
+
 .main-text{
     display: flex;
     justify-content: space-between;
@@ -51,6 +65,12 @@ body{
 }
 .img-denis{
     margin-left: 250px;
+}
+.mobile-denis{
+    display: none;
+}
+.lines{
+    display: none;
 }
 .main-container-2 h1{
     font-size: 34px;
@@ -63,7 +83,6 @@ body{
 }
 .about-me p{
     font-size: 18px;
-    margin-left: 480px;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -75,6 +94,7 @@ body{
 }
 #text3{
     margin-left: 570px;
+    height: 20px;
 
 }
 #text4{
@@ -85,7 +105,9 @@ body{
 }
 #text6{
     margin-left: 670px;
+
 }
+
 .about-me1{
     margin-bottom: 50px;
 }
@@ -94,6 +116,12 @@ body{
 }
 .about-me3{
     margin-bottom: 50px;
+    margin-top: 50px;
+    width: auto;
+}
+
+.about-me-main{
+    display: none;
 }
 .image{
     display: flex;
@@ -102,12 +130,17 @@ body{
 .skills p{
     font-size: 18px;
     margin-bottom: 83px;
+    margin-left: 650px;
 
 }
 .skills h1{
     font-size: 34px;
     margin-bottom: 69px;
     margin-top: 91px;
+    margin-left: 700px;
+}
+.for-store{
+    margin-left: 650px;
 }
 .main-container-4{
     background: #F6F6F6;
@@ -119,7 +152,7 @@ body{
     margin-bottom: 41px;
 }
 .store-img img{
-    margin-left: 257px;
+    margin-left: 260px;
 
 }
 .store-img p{
@@ -134,16 +167,34 @@ body{
     text-decoration: none;
     transition-duration: 2s;
 }
+.Portfolio{
+    margin-left: 700px;
+}
+.store-img{
+    margin-left: 1px;
+}
+.chat{
+    margin-left: 650px;
+}
+.welcome{
+    margin-left: 700px;
+}
 input{
     background: black;
     color: white;
     border-radius: 20px;
     height: 38px;
-    width: 166px;
+    width: 150px;
     text-align: center;
-    margin-left: 665px;
+    margin-left: 700px;
     margin-top: 39px;
 
+}
+.Like{
+    margin-left: 90px;
+}
+.Like2{
+    margin-left: 700;
 }
 input:active{
     border: 4px solid grey;
@@ -151,27 +202,239 @@ input:active{
 .contacts h1{
     font-size: 34px;
     margin-bottom: 20px;
+    margin-left: 690px;
+    
+}
+.contacts p{
+    margin-bottom: 0px;
+    margin-top: 0;
 }
 .last-text{
     font-size: 14px;
     color: #828282;
-    height: 34px;
+    height: 17px;
     width: 243px;
     margin-bottom: 0;
+    margin-top: 0;
+    
 }
+.last-text-container{
+    margin-left: 640px;
+}
+
 .images{
-    width: 350px;
-    margin-left: 575px;
+    width: 320px;
+    margin-left: 600px;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
+}
+.h1-about-me{
+    margin-left: 670px;
 }
 @media (max-width:767px) {
     .header{
         display: none;
     }
-    .img-denis{
-        height: 600px;
-        width: 600px;
+    .links-mobile-version a{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
     }
+    .container{
+        display: block;
+    }
+    .navs-link{
+        border: none;
+        background: none;
+        display: block;
+    }
+    .container-a-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    #carouselExampleControls{
+        display: none;
+    }
+    .a-about{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .a-skills{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .a-portfolio{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .a-contacts{
+        text-decoration: none;
+        color: #828282;
+        font-size: 18px;
+    }
+    .links-mobile-version{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-denis{
+        display: none;
+    }
+    .lines{
+        display: none;
+    }
+    .mobile-denis{
+        display: inline;
+        margin-left: 29px;
+       
+    }
+    .languge{
+        display: none;
+    }
+    .name{
+        font-size: 47px;
+        margin-left: 26px;
+        display: block;
+    }
+    .main-text{
+        display: block;
+        margin-left: 26px;
+        order: 1;
+    }
+    .information{
+        margin-left: 28px;
+        margin-top: 23px;
+    }
+    .lines{
+        display: inline;
+        margin-top: 68px;
+        margin-left: 0;
+        height: 19px;
+    }
+    .main-text-container{
+        display: inline;
+    }
+    .main-container{
+        display: flex;
+    }
+    .name-container{
+        display: flex;
+        margin-bottom: 23px;
+    }
+    .h1-about-me{
+        margin-left: 109px;
+    }
+    .text{
+        margin-left: 0;
+        width: 100vw;
+        height: 50px;
+        text-align: center;
+        padding: 0;
+        display: flex;
+    }
+
+    .text2{
+        margin-left: 35px;
+    }
+
+    .text3{
+        margin-left: 60px;
+        height: auto;
+        width: auto;
+    }
+
+    .text4{
+        margin-left: 75px;
+    }
+
+    .text5{
+        margin-left: 30px;
+        width: auto;
+        height: auto;
+    }
+
+    .text6{
+        margin-left: 105px;
+    }
+    .text7{
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+
+    }
+    .text8{
+        width: auto;
+        height: auto;
+        margin-left: 45px;
+    }
+    .about-me1{
+        width: 100%;
+    }
+    .about-me-main{
+        display: block;
+    }
+    .desk{
+        display: none;
+    }
+    .about-me{
+        height: 261px;
+    }
+    .skills h1{
+        margin-left: 143px;
+    }
+    .skills p{
+        margin-left: 74px;
+    }
+
+    .image{
+        display: flex;
+        flex-wrap: wrap;
+        width: 166px;
+        margin-left: 104px;
+    }
+    .Portfolio{
+        margin-left: 121px;
+    }
+    .store-img img{
+        width: 286px;
+        height: 160px;
+        margin-left: 29px;
+        margin-right: 30px;
+    }
+    .store-img{
+        padding-right: 30px;
+    }
+    .store-img p{
+        margin-left: 49px;
+    }
+    .images{
+        margin-left: 29px;
+    }
+    .contacts h1{
+        margin-left: 115px;
+    }
+    /* .contacts p{
+        margin-left: 50px;
+    } */
+    input{
+        margin-left: 35px;
+        height: 42px;
+        width: 316px;
+    }
+body{
+    width: 375px;
+}
+.last-text-container{
+    margin-left: 50px;
+}
+.welcome{
+    margin-left: 80px;
+}
+.chat{
+    margin-left: 50px;
+}
+
 }
